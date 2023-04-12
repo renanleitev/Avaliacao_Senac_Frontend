@@ -52,117 +52,51 @@
       </ul>
     </div>
         </nav>
-    
-        
-        
-        
-<div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="Images/slider1.jpg" class="hoverable materialboxed"> 
-        <div class="caption center-align">
-        </div>
-      </li>
-      <li>
-        <img src="Images/slider2.jpg" class="hoverable materialboxed"> 
-        <div class="caption center-align">
-        </div>
-      </li>
-      <li>
-        <img src="Images/slider3.jpg" class="hoverable materialboxed">
-        <div class="caption center-align">
-        </div>
-      </li>
-      <li>
-        <img src="Images/slider4.jpg" class="hoverable materialboxed">
-        <div class="caption left-align">
-        </div>
-      </li>
-    </ul>
- </div>
-        
+
+    <br/><br/><br/><br/>
+
+    <div class="slideshow-container">
+
+      <!-- Slides conforme exigido na avaliação -->
+      <div class="mySlides fade">
+        <img src="Images/slider1.jpg" style="width:100%">
+        <div class="text">Promoção</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="Images/slider2.jpg" style="width:100%">
+        <div class="text">Skateboard</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="Images/slider3.jpg" style="width:100%">
+        <div class="text">Inverno</div>
+      </div>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div> 
         <br/><br/><br/><br/>
         
-        
-        
-       <div class="container text-center">
-           <div class="row">
-            <div class="col-md-4 image">
-                <a href="produto.html" target="_blank"><img src="Images/CAMISETA%20CREATURE%20SHREDDED%20GREY.jpg"  class="aligncenter img-fluid  hoverable materialboxed"/></a>
-            </div>
-           
-           
-            <div class="col-md-4 image">
-                <a href="produto.html" target="_blank"><img src="Images/CAMISETA%20DGK%20LEVELS%20BLACK.jpg"  class="aligncenter img-fluid  hoverable materialboxed"/></a>
-            </div>
-           
-           
-           <div class="col-md-4 image">
-                <a href="produto.html" target="_blank"><img src="Images/Camiseta%20Eagle.jpg" class="aligncenter img-fluid  hoverable materialboxed"/></a>
-            </div>   
-               
-            </div>
-        </div>
-        
-        
-        
-            <br/>
-            <hr/>
-            <br/>
-        
-            <img src="Images/berma.png" width="1250" class="aligncenter img-fluid hoverable materialboxed imgberma"/>
-        
-        
-        
-        
-            <br/><br/>
-        
              <hr/>
-        
- <div class="container ">   
-    <div class="row justify-content-md-left">
-        <div class="col-md-6">
-            <b class="fconosco">Fale Conosco</b><br>
 
-     <br/><br/>
-            
-                <fieldset>
-  
-                <label class="labelnegrito">Nome</label>
-                <input type="text"/>
-                <br/>
-            
-                <label class="labelnegrito">E-mail</label>
-                <input type="text"/>
-                <br/>
-             
-                <label class="labelnegrito">Telefone</label>
-                <input type="text"/>
-                <br/>
-             
-                <label class="labelnegrito">Coméntario</label>
-                <textarea placeholder="Mensagem" cols="50" rows="50" maxlength="500"></textarea><br>
-                <br />
-            
-                <button class="btn btn-danger" onclick="enviar()">Enviar</button>      
-                    
-                </fieldset> 
-            </div>
-        
-           
-            <div class="col-md-6">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.3620776093107!2d-46.59835466403883!3d-23.55233712176325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5934268f4b49%3A0x40797b77e036a886!2sRua+Taquari%2C+546+-+Mooca%2C+S%C3%A3o+Paulo+-+SP%2C+03166-000!5e0!3m2!1spt-BR!2sbr!4v1558846241111!5m2!1spt-BR!2sbr" class="gmaps" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-     </div>
- </div> 
+    <div class="container">
+      <h1>Entre em contato</h1>
+      <form name='form01'action="https://formsubmit.co/your@email.com" method="POST" class="contato-form">
+        <input type="text" name="name" placeholder="nome" required id="nome-form">
+        <input type="email" name="email" placeholder="email" required id="email-form">
+        <button type="submit" id="submitButton">Send</button>
+      </form> 
+    </div>
           
         
         <br/><br/>          
         <hr/>
-        
-        
-       
-        
+         
 <div class="container ">   
     <div class="row justify-content-md-left">
         <div class="col-md-4">
@@ -177,95 +111,61 @@
             <i class="fas fa-map-marker-alt"><u class="itensmenu"> Endereço:</u></i> <b>Rua Taquari, 546 - Mooca, São Paulo</b><br>
             <i class="fas fa-envelope"><u class="itensmenu"> Email:</u></i> <b>matheus23zf@gmail.com</b>
         </div>
-        
-    
-        <div class="col-md-4">
-            <a href="https://www.facebook.com/usjtoficial/" target=”_blank”><img src="Images/face.png" class=" img-fluid hoverable" width="55"/></a><b class="labelnegrito"> Facebook</b><br><br>
-            <a href="https://www.instagram.com/usjtoficial/" target="_blank"><img src="Images/insta.jpg" class=" img-fluid hoverable  " width="55"/></a><b class="labelnegrito"> Instagram</b>
-        </div> 
+
     </div>
 </div>
-        
-        
-        
-        
-        
-        <!-- Inicio Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
 
-              <div class="modal-header">
-                <h4 class="modal-title text-center" id="myModalLabel">Login</h4>
-              </div>
-
-              <div class="modal-body">
-                <p>E-mail</p>
-                <input type="text" id="mailID"/>
-                
-                <p>Senha</p>
-                <input type="text" id="senhaID"/>
-              </div>
-
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" onclick="logar()" data-dismiss="modal">Login</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <!-- Fim Modal -->
-        
-        
-        
-        <!-- js -->
         <script type="text/javascript" src="js/materialize.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         
+    <script>
+      // Função slide criada para avaliação
+      let slideIndex = 0;
+      showSlides();
 
-        <script>
-            $(document).ready(function(){
-                $('.slider').slider({
-        interval: 6000,
-        height: 450
-     }); 
-    });  
-        </script>
-        
-        
-        
-    <script>
-        function logar(){
-            alert("Login Efetuado !");
-        }         
-    </script>
-        
-        
-        
-    <script>
-            $(document).ready(function() {
-            $('.modal').on('hidden.bs.modal', function() {
-            console.log('fechar modal')
-            $(this).find('input:text').val('');
-        });
-    });     
-     </script>
-        
-        
-        
-    <script>
-        function enviar(){
-            alert("Enviado !");   
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
         }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); 
+      }
     </script>
-        
-        
-        
-        
+
+    <script>
+      // Alerta de bem vindo com a hora do dia
+      var today = new Date();
+      var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      window.alert('Bem vindo usuário! Agora são ' + time);
+    </script>
+
+    <script>
+        // Enviando o formulário com base no email cadastrado
+        document.forms.form01.addEventListener('submit', e => {
+          var email = document.getElementById('email-form').value;
+          var nome = document.getElementById('nome-form').value;
+          // Verificando se nome e email possuem caracter mínimos
+          if (email.length < 10) {
+            window.alert('Erro. Email inválido.');
+            e.preventDefault();
+          } else if (nome.length < 10) {
+            window.alert('Erro. Nome inválido.')
+            e.preventDefault();
+          } else {
+            e.target.action = 'https://formsubmit.co/' + email;
+          }
+      });
+    </script>
     </body>
-    
-    
 </html>
