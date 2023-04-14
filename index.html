@@ -1,130 +1,91 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
-    
-    
-    
     <head>
-        
         <title>Index</title>
         <meta charset="utf-8" />
-        
         <!-- Meus estilos -->
-        <link type="text/css" rel="stylesheet" href="css/estilo.css" />
-        
+        <link type="text/css" 
+        rel="stylesheet" 
+        href="css/estilo.css" />
         <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
+        <link 
+        href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+        rel="stylesheet">
         <!-- Font-awesome - icones -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-        
+        <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+        crossorigin="anonymous" />
         <!-- fonte do google -->
-        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|PT+Sans" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|PT+Sans" 
+        rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" 
+        rel="stylesheet">
         <!-- bootstrao 0-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-        
+        <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous"/>
         <!-- Materialize -->
         <link rel="stylesheet" href="css/materialize.css">
-        
         <!-- JQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        
         <meta name="viewport" content="width=device-width, user-scalable=no">
-        
-        
     </head>
-    
-    
-    
-    
-
     <body>
-       
-        
-        <nav class="black">
-    <div class="nav-wrapper">
-      <a href="index.html"><i class="fas fa-home fa-3x"></i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a data-toggle="modal" data-target="#myModal"><i class="fas fa-user"> Minha conta</i></a></li>
-          <li><a href="carrinho.html" target="_blank"><i class="fas fa-shopping-cart"> Meus Pedidos</i></a></li>
-      </ul>
-    </div>
-        </nav>
-
-    <br/><br/><br/><br/>
-
+    <nav class="header">
+      <h1>Loja</h1>
+    </nav>
     <div class="slideshow-container">
-
       <!-- Slides conforme exigido na avaliação -->
       <div class="mySlides fade">
-        <img src="Images/slider1.jpg" style="width:100%">
-        <div class="text">Promoção</div>
+        <img class="slider-img" src="https://cdni.iconscout.com/illustration/premium/thumb/girl-buying-clothes-in-store-5245153-4385038.png" style="width:100%">
+        <div class="text">Roupas</div>
       </div>
-
       <div class="mySlides fade">
-        <img src="Images/slider2.jpg" style="width:100%">
-        <div class="text">Skateboard</div>
+        <img class="slider-img" src="https://cdni.iconscout.com/illustration/premium/thumb/woman-choosing-clothes-in-the-clothing-store-5246175-4386053.png?f=webp" style="width:100%">
+        <div class="text">Vestuário</div>
       </div>
-
       <div class="mySlides fade">
-        <img src="Images/slider3.jpg" style="width:100%">
-        <div class="text">Inverno</div>
+        <img class="slider-img" src="https://thumbs.dreamstime.com/b/happy-young-family-shopping-flat-vector-concept-african-american-father-mother-children-carrying-packets-gift-boxes-137692434.jpg" style="width:100%">
+        <div class="text">Shopping</div>
       </div>
     </div>
-    <br>
-
     <div style="text-align:center">
       <span class="dot" onclick="currentSlide(1)"></span>
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
     </div> 
-        <br/><br/><br/><br/>
-        
-             <hr/>
-
+    <hr/>
     <div class="container">
-      <h1>Entre em contato</h1>
-      <form name='form01'action="https://formsubmit.co/your@email.com" method="POST" class="contato-form">
-        <input type="text" name="name" placeholder="nome" required id="nome-form">
-        <input type="email" name="email" placeholder="email" required id="email-form">
+      <form name='form01' action="https://formsubmit.co/your@email.com" method="POST" class="contato-form">
+        <h1>Entre em contato</h1>
+        <input type="text" name="name" placeholder="Nome" required id="nome-form">
+        <input type="number" name="idade" placeholder="Idade" required id="idade-form">
+        <input type="email" name="email" placeholder="Email" required id="email-form">
         <button type="submit" id="submitButton">Send</button>
       </form> 
-    </div>
-          
-        
-        <br/><br/>          
-        <hr/>
-         
-<div class="container ">   
-    <div class="row justify-content-md-left">
-        <div class="col-md-4">
-            <b class="fconosco">Menu</b><br><br>
-            <u><a href="produto.html" target="_blank" class="itensmenu" >Produtos</a></u><br>
-            
-        </div>
-    
-        <div class="col-md-4">
-            <b class="fconosco">Sobre Nós</b><br>
-            <i class="fas fa-phone"><u class="itensmenu"> Telefone:</u></i> <b>(11) 9999-9999</b><br>
-            <i class="fas fa-map-marker-alt"><u class="itensmenu"> Endereço:</u></i> <b>Rua Taquari, 546 - Mooca, São Paulo</b><br>
-            <i class="fas fa-envelope"><u class="itensmenu"> Email:</u></i> <b>matheus23zf@gmail.com</b>
-        </div>
-
-    </div>
-</div>
-
-        <script type="text/javascript" src="js/materialize.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        
+    </div>     
+    <hr/>     
+      <div class="container ">   
+          <div class="row justify-content-md-left">
+              <div class="col-md-4">
+                  <b class="fconosco">Menu</b><br><br>
+                  <u><a href="produto.html" target="_blank" class="itensmenu" >Produtos</a></u><br>
+              </div>
+              <div class="col-md-4">
+                  <b class="fconosco">Sobre Nós</b><br>
+                  <i class="fas fa-phone"><u class="itensmenu"> Telefone:</u></i> <b>(11) 9999-9999</b><br>
+                  <i class="fas fa-map-marker-alt"><u class="itensmenu"> Endereço:</u></i> <b>Rua Fulano, 999, Recife - PE</b><br>
+                  <i class="fas fa-envelope"><u class="itensmenu"> Email:</u></i> <b>desenvolvedor@gmail.com</b>
+              </div>
+          </div>
+      </div>
+<!-- Javascript -->
     <script>
       // Função slide criada para avaliação
       let slideIndex = 0;
       showSlides();
-
       function showSlides() {
         let i;
         let slides = document.getElementsByClassName("mySlides");
@@ -139,33 +100,60 @@
         }
         slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2000); 
+        setTimeout(showSlides, 3000); 
       }
     </script>
-
     <script>
       // Alerta de bem vindo com a hora do dia
-      var today = new Date();
-      var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      let today = new Date();
+      let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
       window.alert('Bem vindo usuário! Agora são ' + time);
     </script>
-
     <script>
         // Enviando o formulário com base no email cadastrado
         document.forms.form01.addEventListener('submit', e => {
-          var email = document.getElementById('email-form').value;
-          var nome = document.getElementById('nome-form').value;
+          let email = document.getElementById('email-form').value;
+          let nome = document.getElementById('nome-form').value;
+          let idade = document.getElementById('idade-form').value;
+          let emailAddress = '@email.com';
+          let gmailAddress = '@gmail.com';
+          let hotmailAddress = '@hotmail.com';
+          let outlookAddress = '@outlook.com';
+          let emailBrAddress = '@email.com.br';
+          let gmailBrAddress = '@gmail.com.br';
+          let hotmailBrAddress = '@hotmail.com.br';
+          let outlookBrAddress = '@outlook.com.br';
+          let senacAddress = '@fac.pe.senac.br';
           // Verificando se nome e email possuem caracter mínimos
-          if (email.length < 10) {
+          if (email.length < 10 
+          || (email.indexOf(emailAddress) < 0
+          && email.indexOf(gmailAddress) < 0
+          && email.indexOf(hotmailAddress) < 0
+          && email.indexOf(outlookAddress) < 0
+          && email.indexOf(emailBrAddress) < 0
+          && email.indexOf(gmailBrAddress) < 0
+          && email.indexOf(hotmailBrAddress) < 0
+          && email.indexOf(outlookBrAddress) < 0
+          && email.indexOf(senacAddress) < 0)
+          ) {
             window.alert('Erro. Email inválido.');
             e.preventDefault();
           } else if (nome.length < 10) {
             window.alert('Erro. Nome inválido.')
             e.preventDefault();
+          } else if (Number.parseInt(idade) < 18) {
+            window.alert('Erro. Idade inválida. Você precisa ter mais de 18 anos pra enviar o email.')
+            e.preventDefault();
           } else {
-            e.target.action = 'https://formsubmit.co/' + email;
+            // Substituir companyEmail pelo email da empresa que vai receber o formulário do usuário
+            let companyEmail = 'renanlvieira@fac.pe.senac.br';
+            e.target.action = 'https://formsubmit.co/' + companyEmail;
           }
       });
+    </script>
+    <script>
+      // Script para bloquear o botão direito do mouse (menu de contexto)
+      document.addEventListener('contextmenu', event => event.preventDefault());
     </script>
     </body>
 </html>
